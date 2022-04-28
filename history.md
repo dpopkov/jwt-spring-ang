@@ -2,6 +2,7 @@ History
 -------
 In reversed order.
 
+* SecurityConstants.
 * Add yaml properties for h2 and mysql.
 * Use mysql_db_users.sql script to create DB and user.
 * UserPrincipal implements UserDetails.

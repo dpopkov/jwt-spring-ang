@@ -2,6 +2,8 @@ History
 -------
 In reversed order.
 
+* UserService, UserServiceImpl implements UserService, UserDetailsService.
+* UserRepository.
 * JwtAccessDeniedHandler::handle.
 * JwtAuthenticationEntryPoint::commence.
 * JwtAuthorizationFilter::doFilterInternal.

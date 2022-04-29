@@ -1,2 +1,6 @@
 jwt:
   secret: oasdfas908342l;kjggi34gsgs-Ala$_9s69x87
+
+logging:
+  level:
+    learn.springang.umsportal.services: INFO

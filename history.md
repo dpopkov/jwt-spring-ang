@@ -2,6 +2,7 @@ History
 -------
 In reversed order.
 
+* JwtAccessDeniedHandler::handle.
 * JwtAuthenticationEntryPoint::commence.
 * JwtAuthorizationFilter::doFilterInternal.
 * JwtProvider::isTokenValid.

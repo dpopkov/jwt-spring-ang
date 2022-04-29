@@ -9,7 +9,7 @@ public class SecurityConstants {
     public static final String COMPANY_LLC = "Company, LLC";
     public static final String COMPANY_ADMINISTRATION = "User Management Portal";
     public static final String AUTHORITIES = "authorities";
-    public static final String FORBIDDEN_MESSAGE = "You to log in to access this page";
+    public static final String FORBIDDEN_MESSAGE = "You need to log in to access this page";
     public static final String ACCESS_DENIED = "You do not have permission to access this page";
     public static final String OPTIONS_HTTP_METHOD = "OPTIONS";
     private static final String USER_PREFIX = "/user";

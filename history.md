@@ -2,6 +2,8 @@ History
 -------
 In reversed order.
 
+* UserController (for test).
+* SecurityConfiguration.
 * UserService, UserServiceImpl implements UserService, UserDetailsService.
 * UserRepository.
 * JwtAccessDeniedHandler::handle.

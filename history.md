@@ -2,6 +2,7 @@ History
 -------
 In reversed order.
 
+* JwtAuthorizationFilter::doFilterInternal.
 * JwtProvider::isTokenValid.
 * JwtProvider::getAuthentication.
 * JwtProvider::getAuthorities.

@@ -2,6 +2,7 @@ History
 -------
 In reversed order.
 
+* ExceptionHandling - to handle all exceptions.
 * EmailExistsException, EmailNotFoundException, UsernameExistsException, UserNotFoundException.
 * UserController (for test).
 * SecurityConfiguration.

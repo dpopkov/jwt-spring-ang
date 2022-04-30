@@ -2,6 +2,7 @@ History
 -------
 In reversed order.
 
+* EmailExistsException, EmailNotFoundException, UsernameExistsException, UserNotFoundException.
 * UserController (for test).
 * SecurityConfiguration.
 * UserService, UserServiceImpl implements UserService, UserDetailsService.

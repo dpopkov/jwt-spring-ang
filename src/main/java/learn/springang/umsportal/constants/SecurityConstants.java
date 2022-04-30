@@ -13,13 +13,9 @@ public class SecurityConstants {
     public static final String ACCESS_DENIED = "You do not have permission to access this page";
     public static final String OPTIONS_HTTP_METHOD = "OPTIONS";
     private static final String USER_PREFIX = "/user";
-    /*
     public static final String[] PUBLIC_URLS = {
             USER_PREFIX + "/login",
             USER_PREFIX + "/register",
             USER_PREFIX + "/resetpassword/**",
             USER_PREFIX + "/image/**"};
-
-     */
-    public static final String[] PUBLIC_URLS = { "**"};
 }

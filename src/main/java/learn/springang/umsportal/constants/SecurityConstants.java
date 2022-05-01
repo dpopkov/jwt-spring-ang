@@ -17,6 +17,5 @@ public class SecurityConstants {
             USER_PREFIX + "/login",
             USER_PREFIX + "/register",
             USER_PREFIX + "/resetpassword/**",
-            USER_PREFIX + "/image/**",
-            "/testing/**"};
+            USER_PREFIX + "/image/**"};
 }

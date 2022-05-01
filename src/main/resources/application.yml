@@ -1,6 +1,13 @@
 jwt:
   secret: oasdfas908342l;kjggi34gsgs-Ala$_9s69x87
 
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
 logging:
   level:
     learn.springang.umsportal.services: INFO

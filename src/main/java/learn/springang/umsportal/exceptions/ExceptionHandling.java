@@ -17,6 +17,7 @@ import org.springframework.security.authentication.LockedException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 import javax.persistence.NoResultException;
 import java.io.IOException;
@@ -96,6 +97,11 @@ public class ExceptionHandling {
     public ResponseEntity<HttpResponse> iOException(IOException exception) {
         log.error(exception.getMessage());
         return createHttpResponse(HttpStatus.INTERNAL_SERVER_ERROR, ERROR_PROCESSING_FILE);
+    }
+
+    @ExceptionHandler(NoHandlerFoundException.class)
+    public ResponseEntity<HttpResponse> noHandlerFoundException() {
+        return createHttpResponse(HttpStatus.NOT_FOUND, "This page was not found");
     }
 
     @ExceptionHandler(Exception.class)
